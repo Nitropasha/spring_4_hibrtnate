@@ -9,4 +9,5 @@ public interface UserService {
     void add(User user);
 
     List<User> listUsers();
+    User  userByCar(String modelName, Integer className);
 }
